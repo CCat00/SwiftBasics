@@ -28,7 +28,7 @@
                                 <rect key="frame" x="85" y="129" width="150" height="30"/>
                                 <state key="normal" title="Go SecViewController"/>
                                 <connections>
-                                    <segue destination="RKR-ZD-a2Z" kind="push" id="JBn-Lx-TIW"/>
+                                    <segue destination="RKR-ZD-a2Z" kind="push" identifier="APushB" id="JBn-Lx-TIW"/>
                                 </connections>
                             </button>
                         </subviews>

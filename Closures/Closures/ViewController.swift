@@ -136,6 +136,9 @@ class ViewController: UIViewController {
     }
     
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
+        if identifier == "APushB" {
+            return true
+        }
         return true
     }
     

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "682C8C081D669EBF006E907B"
-               BuildableName = "Closures.app"
-               BlueprintName = "Closures"
-               ReferencedContainer = "container:Closures.xcodeproj">
+               BlueprintIdentifier = "68E3BDBD1D6A8DBE00442B84"
+               BuildableName = "Enumerations.app"
+               BlueprintName = "Enumerations"
+               ReferencedContainer = "container:Enumerations.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,17 +32,17 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "682C8C081D669EBF006E907B"
-            BuildableName = "Closures.app"
-            BlueprintName = "Closures"
-            ReferencedContainer = "container:Closures.xcodeproj">
+            BlueprintIdentifier = "68E3BDBD1D6A8DBE00442B84"
+            BuildableName = "Enumerations.app"
+            BlueprintName = "Enumerations"
+            ReferencedContainer = "container:Enumerations.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "682C8C081D669EBF006E907B"
-            BuildableName = "Closures.app"
-            BlueprintName = "Closures"
-            ReferencedContainer = "container:Closures.xcodeproj">
+            BlueprintIdentifier = "68E3BDBD1D6A8DBE00442B84"
+            BuildableName = "Enumerations.app"
+            BlueprintName = "Enumerations"
+            ReferencedContainer = "container:Enumerations.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "682C8C081D669EBF006E907B"
-            BuildableName = "Closures.app"
-            BlueprintName = "Closures"
-            ReferencedContainer = "container:Closures.xcodeproj">
+            BlueprintIdentifier = "68E3BDBD1D6A8DBE00442B84"
+            BuildableName = "Enumerations.app"
+            BlueprintName = "Enumerations"
+            ReferencedContainer = "container:Enumerations.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
