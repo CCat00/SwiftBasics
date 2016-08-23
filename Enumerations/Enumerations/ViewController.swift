@@ -99,13 +99,23 @@ class ViewController: UIViewController {
          */
         productBarcode = .QRCode("ABCDEFGHIJKLMNOP")
         
-        switch productBarcode {
-        case .UPCA(let numberSystem, let manufacturer, let product, let check):
-            print("UPC-A: \(numberSystem), \(manufacturer), \(product), \(check).")
-        case .QRCode(let productCode):
-            print("QR code: \(productCode).")
+        /**
+         这里单独写个方法，是为了不报警告。
+         */
+        func testSwitchEnum(product: Barcode) {
+            
+            switch  product { // 这里如果直接传入`productBarcode`的话，会报警告： Switch condition evaluates to a constant
+            case .UPCA(let numberSystem, let manufacturer, let product, let check):
+                print("UPC-A: \(numberSystem), \(manufacturer), \(product), \(check).")
+            case .QRCode(let productCode):
+                print("QR code: \(productCode).")
+            }
+            // 输出 "QR code: ABCDEFGHIJKLMNOP."
         }
-        // 输出 "QR code: ABCDEFGHIJKLMNOP."
+        
+        testSwitchEnum(productBarcode)
+        
+        
         
         // 如果一个枚举成员的所有关联值都被提取为常量，或者都被提取为变量，为了简洁，你可以只在成员名称前标注一个let或者var：
         /*
